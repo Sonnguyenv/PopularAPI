@@ -14,6 +14,10 @@
 		305C73C721F18F59009860E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C73C521F18F59009860E2 /* LaunchScreen.storyboard */; };
 		305C73D221F18F5A009860E2 /* PopularAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C73D121F18F5A009860E2 /* PopularAPITests.swift */; };
 		305C73DD21F18F5A009860E2 /* PopularAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C73DC21F18F5A009860E2 /* PopularAPIUITests.swift */; };
+		305C73EB21F1B350009860E2 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C73EA21F1B350009860E2 /* PopularTableViewCell.swift */; };
+		30C0BD3021F56F5B00FCAC72 /* InfomationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0BD2F21F56F5B00FCAC72 /* InfomationVC.swift */; };
+		30C0BD3221F57A3100FCAC72 /* MainPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0BD3121F57A3100FCAC72 /* MainPopular.swift */; };
+		30C0BD3421F57B1F00FCAC72 /* HTMLToAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0BD3321F57B1F00FCAC72 /* HTMLToAttributedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		305C73D821F18F5A009860E2 /* PopularAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopularAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		305C73DC21F18F5A009860E2 /* PopularAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularAPIUITests.swift; sourceTree = "<group>"; };
 		305C73DE21F18F5A009860E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305C73EA21F1B350009860E2 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
+		30C0BD2F21F56F5B00FCAC72 /* InfomationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationVC.swift; sourceTree = "<group>"; };
+		30C0BD3121F57A3100FCAC72 /* MainPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPopular.swift; sourceTree = "<group>"; };
+		30C0BD3321F57B1F00FCAC72 /* HTMLToAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLToAttributedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				305C73BC21F18F59009860E2 /* AppDelegate.swift */,
+				30C0BD3121F57A3100FCAC72 /* MainPopular.swift */,
 				305C73BE21F18F59009860E2 /* ViewController.swift */,
+				305C73EA21F1B350009860E2 /* PopularTableViewCell.swift */,
+				30C0BD2F21F56F5B00FCAC72 /* InfomationVC.swift */,
+				30C0BD3321F57B1F00FCAC72 /* HTMLToAttributedString.swift */,
 				305C73C021F18F59009860E2 /* Main.storyboard */,
 				305C73C321F18F59009860E2 /* Assets.xcassets */,
 				305C73C521F18F59009860E2 /* LaunchScreen.storyboard */,
@@ -257,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				305C73BF21F18F59009860E2 /* ViewController.swift in Sources */,
+				30C0BD3221F57A3100FCAC72 /* MainPopular.swift in Sources */,
+				305C73EB21F1B350009860E2 /* PopularTableViewCell.swift in Sources */,
+				30C0BD3021F56F5B00FCAC72 /* InfomationVC.swift in Sources */,
+				30C0BD3421F57B1F00FCAC72 /* HTMLToAttributedString.swift in Sources */,
 				305C73BD21F18F59009860E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMCVA33US7;
 				INFOPLIST_FILE = PopularAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMCVA33US7;
 				INFOPLIST_FILE = PopularAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
